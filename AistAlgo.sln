@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AistAlgo", "AistAlgo\AistAlgo.csproj", "{4855AF67-6AB0-4119-BE37-0ED737B7725B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4855AF67-6AB0-4119-BE37-0ED737B7725B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4855AF67-6AB0-4119-BE37-0ED737B7725B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4855AF67-6AB0-4119-BE37-0ED737B7725B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4855AF67-6AB0-4119-BE37-0ED737B7725B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB1C5957-664D-4E43-9628-0C214FA7BF00}
+	EndGlobalSection
+EndGlobal
