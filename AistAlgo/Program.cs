@@ -20,8 +20,8 @@ int[] arr = [5, 5, 5, 3, 4, 2, 3, 4];
 //Console.WriteLine(a);
 
 
-ConvertBase.ToBase10(111);
+//ConvertBase.ToBase10(111);
 
-//Str.Check("  ss s sss ");
+Str.Check("  ss s sss ");
 
 

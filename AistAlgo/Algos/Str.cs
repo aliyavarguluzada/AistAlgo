@@ -5,16 +5,16 @@
         public static string Check(string sentence)
         {
             // sa sss ssssss ss ssssssssss
-            string v = sentence = sentence.Trim();
+            string sentenceTrimmed = sentence.Trim();
 
-            string[] a = v.Split(" ").ToArray();
+            string[] StringArray = sentenceTrimmed.Split(" ").ToArray();
 
 
-            
-            Console.WriteLine(a.Max());
-            Console.WriteLine(a.Min());
 
-          
+            Console.WriteLine(StringArray.Max());
+            Console.WriteLine(StringArray.Min());
+
+
             return String.Empty;
         }
     }
