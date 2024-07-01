@@ -7,7 +7,7 @@
             // [1, 2, 3, 3, 4, 2, 3, 3, 3, 4];
 
 
-            Dictionary<int, int> b = new Dictionary<int, int>();
+            Dictionary<int, int> keyValuePairs = new Dictionary<int, int>();
 
             for (int i = 0; i < arr.Length - 1; i++)
             {
@@ -16,13 +16,13 @@
                 {
 
 
-                    if (!b.ContainsKey(arr[i]))
+                    if (!keyValuePairs.ContainsKey(arr[i]))
                     {
-                        b.Add(arr[i], 1);
+                        keyValuePairs.Add(arr[i], 1);
 
                     }
                     else if (arr[i] == arr[j])
-                            b[arr[i]]++;
+                        keyValuePairs[arr[i]]++;
 
 
                 }
@@ -30,7 +30,7 @@
             }
 
 
-            var maxValueKey = b.Aggregate((l, r) => l.Value > r.Value ? l : r).Key;
+            var maxValueKey = keyValuePairs.Aggregate((l, r) => l.Value > r.Value ? l : r).Key;
 
 
             return maxValueKey;
