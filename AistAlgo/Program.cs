@@ -1,27 +1,38 @@
-﻿using AistAlgo.Algos;
+﻿
+
+using AistAlgo.Algos;
+
+//bool @case1 = Palindrome.IsPalindrome(121);
+//bool @case2 = Palindrome.IsPalindrome("madam");
+
+//Console.WriteLine(case1);   
+//Console.WriteLine(case2);   
 
 
-//ConvertBase.Convert(20);
-//ConvertBase.Convert(3);
-//ConvertBase.Convert(4);
-//ConvertBase.Convert(65);
-
-//Console.WriteLine();
-
-
-
-/// 2lik 10luga 
-/// cumlede en cox ve en qisa soz 
-/// arrayda int en cox tekrarlanan eded 
-
-int[] arr = [5, 5, 5, 3, 4, 2, 3, 4];
-
-//int a = MostRepeatedNumber.Repeated(arr);
-//Console.WriteLine(a);
+var prime1 = Mirror.IsPrime(2);
+var prime2 = Mirror.IsPrime(3);
+var prime3 = Mirror.IsPrime(4);
+var prime4 = Mirror.IsPrime(5);
+var prime5 = Mirror.IsPrime(6);
+var prime6 = Mirror.IsPrime(16);
+var prime7 = Mirror.IsPrime(18);
 
 
-//ConvertBase.ToBase10(111);
+//Console.WriteLine(prime1);
+//Console.WriteLine(prime2);
+//Console.WriteLine(prime3);
+//Console.WriteLine(prime4);
+//Console.WriteLine(prime5);
+//Console.WriteLine(prime6);
+//Console.WriteLine(prime7);
 
-Str.Check("  ss s sss ");
 
+var reversed = Mirror.Reversed(12);
+
+List<int> result = Mirror.Mirrors();
+foreach (int number in result)
+{
+    Console.WriteLine(number);
+
+}
 
