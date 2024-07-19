@@ -33,14 +33,13 @@
         {
             List<int> mirrors = new List<int>();
 
-            for (int i = 2; i < 100; i++)
+            for (int i = 2; i < 1000; i++)
             {
-                if (IsPrime(i) == true && IsPrime(Reversed(i)) == true)
+                if (IsPrime(i) && IsPrime(Reversed(i)))
                 {
                     mirrors.Add(i);
                 }
             }
-
             return mirrors;
         }
     }
